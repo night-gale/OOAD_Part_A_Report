@@ -1,7 +1,6 @@
 # Project SAM: Sustecher And Monster
 ### Project part A report
-### Member: 11812301 王浩
-
+### Member: 11812301 王浩, 11811408 李昶 11811410 李奇隆
 ## **Project Abstract**
 ## **Description**
 * Motivation
