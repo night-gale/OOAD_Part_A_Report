@@ -1,7 +1,6 @@
 # Project SAM: Sustecher And Monster
 ### Project part A report
-### Member: 11812301 王浩
-
+### Member: 11812301 王浩, 11811408 李昶 11811410 李奇隆
 ## **Project Abstract**
 Inspired by the one of the most classical and famous player-made game map from *WarCraft 3*, we plan to develop a "Tower Defense" game that inherites some of the interesting and exciting features of it,
 and, on top of that, includes more fancy and fantastic functionalities along with addional interaction between players that share a same side or play as oponents to exploit more fun out of it. 
