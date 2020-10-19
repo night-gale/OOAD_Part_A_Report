@@ -61,10 +61,8 @@ Inspired by the one of the most classical and famous player-made game map *Troll
 
       **Class Market**
       > The only way that Sustecher can get wood resource in the early stages of game \
-      > Get10Woods: Give Sustecher 10 woods by taking an amount of gold from Sustecher \
-      > Get100Woods: Give Sustecher 100 woods by taking an amount of gold from Sustecher \
-      > Get10Golds: Give Sustecher 10 golds by taking an amount of wood from Sustecher \
-      > Get100Golds: Give Sustecher 100 golds by taking an amount of wood from Sustecher
+      > BuyWoods: Give Sustecher an amount of wood by taking an amount of gold from Sustecher \
+      > BuyGolds: Give Sustecher an amount of gold by taking an amount of wood from Sustecher
 
       **Class Castle**
       > Some high-level buildings can be built only after this building being built
