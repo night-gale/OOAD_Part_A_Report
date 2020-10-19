@@ -16,6 +16,15 @@ Moreover, the game experience largely depends on our design and understanding of
 * Feature Description 
   * 2-4 user stories
   * UML use cases (Graph Done, description TODO)
+    <div>
+      <img src = "Diagram/use_case.jpg" width=500></br>
+    </div>
+
+  The whole system is composed of 5 main parts, 
+    * Start game (Online/Offline)
+    * Load/Save game (For offline)
+    * Configurations
+    * Account manage system that handles the online game player
 * Requirements
   * Functional Requirements
   * Performance
