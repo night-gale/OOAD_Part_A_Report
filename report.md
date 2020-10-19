@@ -1,13 +1,8 @@
-# Project SAM: Sustecher And Monster
+# Project SAM: SUSTecher And Monster
 ### Project part A report
 ### Member: 11812301 王浩, 11811408 李昶 11811410 李奇隆
 ## **Project Abstract**
-Inspired by the one of the most classical and famous player-made game map *Troll and Elves* from *WarCraft 3*, we plan to develop a "Tower Defense" game that inherites some of the interesting and exciting features of it,
-and, on top of that, includes more fancy and fantastic functionalities along with addional interaction between players that share a same side or play as oponents to exploit more fun out of it. 
-The basic and also the key game mode of our game would be a online, multi-player and imbalanced combat game also known as Asymmetric Battle Arena Game. Players would be divided into two sides. 
-While one of them play as "Monster" to attack, the others act as "Sustech" to build **tower** and walls to defend themselves from "Monster".
-To achieve that, a fairly good understanding about the APIs of the game engine--unreal that we are going to adopt is critical and vital. 
-Moreover, the game experience largely depends on our design and understanding of network synchronization.
+Inspired by the one of the most classical and famous player-made game map *Troll and Elves* from *WarCraft 3*, we plan to develop a "Tower Defense" game that inherits some of the interesting and exciting features of it, and, on top of that, includes more fancy and fantastic functionalities along with additional interaction between players that share a same side or play as opponents to exploit more fun out of it. The basic and also the key game mode of our game would be a online, multi-player and imbalanced combat game also known as Asymmetric Battle Arena Game. Players would be divided into two sides. While one of them play as "Monster" to attack, the others act as "SUSTech" to build **tower** and walls to defend themselves from "Monster". To achieve that, a fairly good understanding about the APIs of the game engine--unreal that we are going to adopt is critical and vital. Moreover, the game experience largely depends on our design and understanding of network synchronization.
 ## **Description**
 * Motivation
   * What's the problem?
@@ -29,7 +24,7 @@ Story2:
   * Class Diagrams
     * Player
       <div>
-        <img src = "Diagram/Player.jpg"></br>
+        <img src = "Diagram/Player.jpg" width=400></br>
       </div>
 
       **Class Player**
@@ -47,7 +42,7 @@ Story2:
         
     * Building
       <div>
-        <img src = "Diagram/Building.jpg"></br>
+        <img src = "Diagram/Building.jpg" width=400></br>
       </div>
 
       **Class SustecherBuilding**
@@ -70,10 +65,8 @@ Story2:
 
       **Class Market**
       > The only way that Sustecher can get wood resource in the early stages of game \
-      > Get10Woods: Give Sustecher 10 woods by taking an amount of gold from Sustecher \
-      > Get100Woods: Give Sustecher 100 woods by taking an amount of gold from Sustecher \
-      > Get10Golds: Give Sustecher 10 golds by taking an amount of wood from Sustecher \
-      > Get100Golds: Give Sustecher 100 golds by taking an amount of wood from Sustecher
+      > BuyWoods: Give Sustecher an amount of wood by taking an amount of gold from Sustecher \
+      > BuyGolds: Give Sustecher an amount of gold by taking an amount of wood from Sustecher
 
       **Class Castle**
       > Some high-level buildings can be built only after this building being built
@@ -89,14 +82,14 @@ Story2:
       **Class MonsterBuilding**
       > The building that monster can interact with \
       > Be built in the beginning of the game \
-      > Cannot be destoryed
+      > Cannot be destroyed
       
       **Class MonsterShop**
       > The building where monster can use gold to buy equipments to improve itself
 
     * Skill
       <div>
-        <img src = "Diagram/Skill.jpg"></br>
+        <img src = "Diagram/Skill.jpg" width=400></br>
       </div>
 
       **Class Skill**
