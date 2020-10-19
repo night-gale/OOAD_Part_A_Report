@@ -29,8 +29,8 @@ Story2:
     10. (Optional) Not bad character modeling
     11. (Optional) SUSTech-like designed map
   * Performance
-    * network
-    * Graphics
+    * Network: Low-latency online gameplay experience
+    * Graphics: Not bad graphics
 * Design Document
   * Class Diagrams
     * Player
