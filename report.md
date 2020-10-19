@@ -1,6 +1,6 @@
 # Project SAM: SUSTecher And Monster
 ### Project part A report
-### Member: 11812301 王浩, 11811408 李昶 11811410 李奇隆
+### Member: 11812301 王浩, 11811408 李昶 11811410 李奇隆 11812925黄子健
 ## **Project Abstract**
 Inspired by the one of the most classical and famous player-made game map *Troll and Elves* from *WarCraft 3*, we plan to develop a "Tower Defense" game that inherits some of the interesting and exciting features of it, and, on top of that, includes more fancy and fantastic functionalities along with additional interaction between players that share a same side or play as opponents to exploit more fun out of it. The basic and also the key game mode of our game would be a online, multi-player and imbalanced combat game also known as Asymmetric Battle Arena Game. Players would be divided into two sides. While one of them play as "Monster" to attack, the others act as "SUSTech" to build **tower** and walls to defend themselves from "Monster". To achieve that, a fairly good understanding about the APIs of the game engine--unreal that we are going to adopt is critical and vital. Moreover, the game experience largely depends on our design and understanding of network synchronization.
 ## **Description**
@@ -10,6 +10,10 @@ Inspired by the one of the most classical and famous player-made game map *Troll
   * What's your solution
 * Feature Description 
   * 2-4 user stories
+  Story1:
+	You can’t image how excited I am when I know we would create a game as our project. I started playing game when I was just four years old. Game is my favorite. In the following years, I played so many different games, such as *WarCraft 3*, *Overwatch*, *Plant VS Zombie* et al. What's more, game is one part of reason for what I learn computer science.But I never think I could create a game as an undergraduate. By this chance, I want to create a game like Trolls and elves which is not popular now but very creative and interesting. My group will also insert some features of Sustech to make it familiar to us teachers and students. Create an Sustech’s Tower Defense game. 
+Story2:
+	I like playing games but just several games. Maybe I am not a game fan but I would like to create a game. It will be a hard but great process, where I will learn a lot things useful.
   * UML use cases (Graph Done, description TODO)
 * Requirements
   * Functional Requirements
@@ -124,7 +128,12 @@ Inspired by the one of the most classical and famous player-made game map *Troll
       > Keep the monster from being detected by a Sustecher or a SustecherBuilding for a few seconds
 
 * Feasibility
-  * Why your can achieve it?
-  * Or how?
+  * Why we can achieve it?
+    * Unreal engine provides us a complete system for game development
+    * Github can help us accomplish tasks efficiently
+    * Good analysis of the game mechanism ensure the efficient development of the game
+    * Reasonable timeline guarantees the whole project in an order manner
+    * Suitable work load ensures that development of every parts of the game goes on smoothly
+    >* ****
 
 
