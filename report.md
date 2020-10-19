@@ -22,6 +22,103 @@ Moreover, the game experience largely depends on our design and understanding of
     * network
     * Graphics
 * Design Document
+  * Class Diagrams
+    * Player
+      <div>
+        <img src = "Diagram/Player.jpg"></br>
+      </div>
+
+      **Class Player**
+      > User can choose one of the Player to play in game \
+      > Move:  Move Player to where right-click event is generated \
+      > UseSkill: Use a specific skill on a selected target
+
+      **Class Sustecher** 
+      > Can have multiple Sustechers in one game \
+      > Build: Building a specific building on where left-click event is generated
+
+      **Class Monster**
+      > Only one in each game \
+      > Attack: Dealing damage to a Sustecher or a SustecherBuilding and will give monster an amount of gold according to the magnitude of damage
+        
+    * Building
+      <div>
+        <img src = "Diagram/Building.jpg"></br>
+      </div>
+
+      **Class SustecherBuilding**
+      > The buildings that Sustecher can build and monster can attack \
+      > Upgrade: Raise the level of the building by 1 \
+      > Destory: Destory the building
+
+      **Class House**
+      > The most important building of Sustecher \
+      > The only source of gold in the early stages of game \
+      > ProduceGold: Give a specific amount of gold to Sustecher
+
+      **Class Mine**
+      > The building that give major gold resource to Sustecher in the mid to last stages of game \
+      > ProduceGold: Give a specific amount of gold to Sustecher
+
+      **Class WoodFactory**
+      > The building that give major wood resource to Sustecher in the mid to last stages of game \
+      > ProduceWood: Give a specific amount of wood to Sustecher
+
+      **Class Market**
+      > The only way that Sustecher can get wood resource in the early stages of game \
+      > Get10Woods: Give Sustecher 10 woods by taking an amount of gold from Sustecher \
+      > Get100Woods: Give Sustecher 100 woods by taking an amount of gold from Sustecher \
+      > Get10Golds: Give Sustecher 10 golds by taking an amount of wood from Sustecher \
+      > Get100Golds: Give Sustecher 100 golds by taking an amount of wood from Sustecher
+
+      **Class Castle**
+      > Some high-level buildings can be built only after this building being built
+
+      **Class Tower**
+      > The major building that Sustecher used to attack the monster \
+      > Attack: Dealing damage to a monster
+
+      **Class Wall**
+      > The major building that Sustecher used to defense the attack of monster \
+      > Defense: Reduce the incoming damage by a certain percentage
+
+      **Class MonsterBuilding**
+      > The building that monster can interact with \
+      > Be built in the beginning of the game \
+      > Cannot be destoryed
+      
+      **Class MonsterShop**
+      > The building where monster can use gold to buy equipments to improve itself
+
+    * Skill
+      <div>
+        <img src = "Diagram/Skill.jpg"></br>
+      </div>
+
+      **Class Skill**
+      > ApplyTo: Apply a selected skill on a selected target
+
+      **Class Enwind**
+      > Limit the monster's movement for a few seconds
+
+      **Class Silence**
+      > Keep the monster from using its skills for a few seconds
+
+      **Class Undamageable**
+      > Keep the SustecherBuilding from being destroyed by the monster
+
+      **Class Repair**
+      > Sustecher can repair the HP of SustecherBuilding in a certain speed
+
+      **Class DetectMap**
+      > Make an area become visible to the monster for a few seconds
+
+      **Class BackHome**
+      > After casting for a few seconds, monster can teleport to a place near the MonsterShop
+
+      **Class Hiding**
+      > Keep the monster from being detected by a Sustecher or a SustecherBuilding for a few seconds
+
 * Feasibility
   * Why your can achieve it?
   * Or how?
