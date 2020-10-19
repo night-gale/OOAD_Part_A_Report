@@ -11,10 +11,10 @@ Inspired by the one of the most classical and famous player-made game map *Troll
 * Feature Description 
   * 2-4 user stories
   Story1:
-	You can’t image how excited I am when I know we would create a game as our project. I started playing game when I was just four years old. Game is my favorite. In the following years, I played so many different games, such as *WarCraft 3*, *Overwatch*, *Plant VS Zombie* et al. What's more, game is one part of reason for what I learn computer science.But I never think I could create a game as an undergraduate. By this chance, I want to create a game like Trolls and elves which is not popular now but very creative and interesting. My group will also insert some features of Sustech to make it familiar to us teachers and students. Create an Sustech’s Tower Defense game. 
+	You can’t image how excited I am when I know we would create a game as our project. I started playing game when I was just four years old. Game is my favorite. In the following years, I played so many different games, such as *WarCraft 3*, *Overwatch*, *Plant VS Zombie* et al. What's more, game is one part of reason for what I learn computer science.But I never think I could create a game as an undergraduate. By this chance, I want to create a game like Trolls and elves which is not popular now but very creative and interesting. Our group will also insert some features of Sustech to make it familiar to us teachers and students. Create an Sustech’s Tower Defense game. 
 Story2:
 	I like playing games but just several games. Maybe I am not a game fan but I would like to create a game. It will be a hard but great process, where I will learn a lot things useful.
-  * UML use cases (Graph Done, description TODO)
+  * UML use cases 
     <div>
       <img src = "Diagram/use_case.jpg" width=500></br>
     </div>
