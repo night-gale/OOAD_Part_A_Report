@@ -78,7 +78,7 @@ Inspired by the one of the most classical and famous player-made game map *Troll
       **Class MonsterBuilding**
       > The building that monster can interact with \
       > Be built in the beginning of the game \
-      > Cannot be destoryed
+      > Cannot be destroyed
       
       **Class MonsterShop**
       > The building where monster can use gold to buy equipments to improve itself
