@@ -13,6 +13,17 @@ Inspired by the one of the most classical and famous player-made game map *Troll
   * UML use cases (Graph Done, description TODO)
 * Requirements
   * Functional Requirements
+    1. A Top-down multi-player online tower defense game
+    2. 1 monster vs at most 4 Sustechers
+    3. Sustecher will build different kinds of towers to defend and attack the monster
+    4. Monster will attack the towers and gain gold to buy equipments
+    5. Buildings have multiple levels and functions
+    6. Player controller system
+    7. Account management system
+    8. User friendly interface
+    9. (Optional) offline game mode (play with AI or story mode)
+    10. (Optional) Not bad character modeling
+    11. (Optional) SUSTech-like designed map
   * Performance
     * network
     * Graphics
