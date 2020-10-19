@@ -1,6 +1,6 @@
 # Project SAM: Sustecher And Monster
 ### Project part A report
-### Member: 11812301 王浩, 11811408 李昶 11811410 李奇隆
+### Member: 11812301 王浩, 11811408 李昶 11811410 李奇隆 11812925黄子健
 ## **Project Abstract**
 ## **Description**
 * Motivation
@@ -17,7 +17,12 @@
     * Graphics
 * Design Document
 * Feasibility
-  * Why your can achieve it?
-  * Or how?
+  * Why we can achieve it?
+    * Unreal engine provides us a complete system for game development
+    * Github can help us accomplish tasks efficiently
+    * Good analysis of the game mechanism ensure the efficient development of the game
+    * Reasonable timeline guarantees the whole project in an order manner
+    * Suitable work load ensures that development of every parts of the game goes on smoothly
+    >* ****
 
 
