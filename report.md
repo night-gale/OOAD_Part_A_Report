@@ -83,11 +83,14 @@ Moreover, the game experience largely depends on our design and understanding of
       > Keep the SustecherBuilding from being destroyed by the monster
 
       **Class Repair**
-      
+      >
+
       **Class DetectMap**
+      >
 
       **Class BackHome**
-      > 
+      >
+
       **Class Hiding**
       > Keep the monster from being detected by a Sustecher or a SustecherBuilding for a few seconds
 
