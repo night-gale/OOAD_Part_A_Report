@@ -25,7 +25,7 @@ Moreover, the game experience largely depends on our design and understanding of
   * Class Diagrams
     * Player
       <div>
-        <img src = "Diagram/Player.jpg"></br>
+        <img src = "Diagram/Player.jpg" width=400></br>
       </div>
 
       **Class Player**
@@ -43,7 +43,7 @@ Moreover, the game experience largely depends on our design and understanding of
         
     * Building
       <div>
-        <img src = "Diagram/Building.jpg"></br>
+        <img src = "Diagram/Building.jpg" width=400></br>
       </div>
 
       **Class SustecherBuilding**
@@ -92,7 +92,7 @@ Moreover, the game experience largely depends on our design and understanding of
 
     * Skill
       <div>
-        <img src = "Diagram/Skill.jpg"></br>
+        <img src = "Diagram/Skill.jpg" width=400></br>
       </div>
 
       **Class Skill**
