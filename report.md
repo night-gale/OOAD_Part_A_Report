@@ -7,8 +7,19 @@ Inspired by the one of the most classical and famous player-made game map *Troll
 ### Motivation
 
 * What's the problem?
+  + We need to design a fun tower defense gameplay and some interesting game background
+  + We need to design a complete game system
+  + We need a clear plan and division of labor to complete our game
+  + We need to choose a suitable game engine
 * What's your vision for solving the problem?
+  + discuss to determine the specific gameplay of the game, as well as the background design
+  + represent the whole system by drawing UML diagrams
+  + compare Unity and Unreal engine, choose better
 * What's your solution
+  + We spent some time in discussion and made a timetable for whole project
+  + We decided a one-to-many gameplay to make our tower defense game fun
+  + We drew cases diagram and class diagram to reprsent our system
+  + We learn both two engines and final choose Unreal to Implement our project
 
 ### Feature Description 
 
