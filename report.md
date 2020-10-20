@@ -30,7 +30,7 @@ Story2:
 I like playing games but just several games. Maybe I am not a game fan but I would like to create a game. It will be a hard but great process, where I will learn a lot things useful.
 * UML use cases 
   <div>
-    <img src = "Diagram/use_case.jpg" width=500></br>
+    <img src = "Diagram/use_case.jpg" width=400></br>
   </div>
 
 The whole system is composed of 5 main parts, 
@@ -84,74 +84,74 @@ The whole system is composed of 5 main parts,
     </div>
 
     **Class SustecherBuilding**
-    > The buildings that Sustecher can build and monster can attack \
-    > Upgrade: Raise the level of the building by 1 \
+    > The buildings that Sustecher can build and monster can attack
+    > Upgrade: Raise the level of the building by 1
     > Destory: Destory the building
 
     **Class House**
-    > The most important building of Sustecher \
-    > The only source of gold in the early stages of game \
+    > The most important building of Sustecher
+    > The only source of gold in the early stages of game
     > ProduceGold: Give a specific amount of gold to Sustecher
 
     **Class Mine**
-    > The building that give major gold resource to Sustecher in the mid to last stages of game \
+    > The building that give major gold resource to Sustecher in the mid to last stages of game
     > ProduceGold: Give a specific amount of gold to Sustecher
 
     **Class WoodFactory**
-    > The building that give major wood resource to Sustecher in the mid to last stages of game \
+    > The building that give major wood resource to Sustecher in the mid to last stages of game
     > ProduceWood: Give a specific amount of wood to Sustecher
 
     **Class Market**
-    > The only way that Sustecher can get wood resource in the early stages of game \
-    > BuyWoods: Give Sustecher an amount of wood by taking an amount of gold from Sustecher \
+    > The only way that Sustecher can get wood resource in the early stages of game
+    > BuyWoods: Give Sustecher an amount of wood by taking an amount of gold from Sustecher
     > BuyGolds: Give Sustecher an amount of gold by taking an amount of wood from Sustecher
 
     **Class Castle**
     > Some high-level buildings can be built only after this building being built
 
     **Class Tower**
-    > The major building that Sustecher used to attack the monster \
+    > The major building that Sustecher used to attack the monster
     > Attack: Dealing damage to a monster
 
     **Class Wall**
-    > The major building that Sustecher used to defense the attack of monster \
+    > The major building that Sustecher used to defense the attack of monster
     > Defense: Reduce the incoming damage by a certain percentage
 
     **Class MonsterBuilding**
-    > The building that monster can interact with \
-    > Be built in the beginning of the game \
+    > The building that monster can interact with
+    > Be built in the beginning of the game
     > Cannot be destroyed
-    
+
     **Class MonsterShop**
-    
-> The building where monster can use gold to buy equipments to improve itself
-    
+    > The building where monster can use gold to buy equipments to improve itself
+  
+  	<div>
+    	<img src = "Diagram/Skill.jpg" width=400></br>
+    </div>
+
   * Skill
-    <div>
-      <img src = "Diagram/Skill.jpg" width=400></br>
-  </div>
-  
     **Class Skill**
-  > ApplyTo: Apply a selected skill on a selected target
-  
+    
+> ApplyTo: Apply a selected skill on a selected target
+    
     **Class Enwind**
-  > Limit the monster's movement for a few seconds
-  
+> Limit the monster's movement for a few seconds
+    
     **Class Silence**
-  > Keep the monster from using its skills for a few seconds
-  
+> Keep the monster from using its skills for a few seconds
+    
     **Class Undamageable**
-  > Keep the SustecherBuilding from being destroyed by the monster
-  
+> Keep the SustecherBuilding from being destroyed by the monster
+    
     **Class Repair**
-  > Sustecher can repair the HP of SustecherBuilding in a certain speed
-  
+> Sustecher can repair the HP of SustecherBuilding in a certain speed
+    
     **Class DetectMap**
-  > Make an area become visible to the monster for a few seconds
-  
+> Make an area become visible to the monster for a few seconds
+    
     **Class BackHome**
-  > After casting for a few seconds, monster can teleport to a place near the MonsterShop
-  
+> After casting for a few seconds, monster can teleport to a place near the MonsterShop
+    
     **Class Hiding**
     
     > Keep the monster from being detected by a Sustecher or a SustecherBuilding for a few seconds
